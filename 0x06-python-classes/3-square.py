@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""""
+This is a class that returns the area of a square
+"""
 class Square:
     """
         Atrributes:

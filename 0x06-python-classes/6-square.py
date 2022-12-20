@@ -1,4 +1,26 @@
 #!/usr/bin/python3
+
+"""
+A script that creates a class and validates its given attribute
+Attributes:
+    Square (class): with a valid attribute 'size'
+Todo:
+    * Private instance attribute: size
+    * property setter def 'size(self, value)' to set it
+    * size must be an integer, otherwise raise a 'TypeError' exception with
+    the message size must be an integer
+    * if size is less than 0, raise a 'ValueError' exception with the message
+    size must be >= 0
+    * Private instance attribute: position
+        * property 'def position(self)': to retrieve it
+        * property setter 'def position(self, value)': to set it
+    * Public instance method: 'def area(self)' that returns the current
+    square area
+    * Public instance method: def my_print(self): that prints in stdout the
+    square with the character #
+"""
+
+
 class Square:
     """
         Atrributes:
